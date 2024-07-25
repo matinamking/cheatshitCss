@@ -1,0 +1,36 @@
+body{
+    font-size: 24px;
+    font-family: sans-serif;
+}
+/*.content-1{
+
+}*/
+
+/* element element */
+/*.main .content-1{
+    background-color: brown;
+}
+.main div{
+    background-color: green;
+}*/
+
+/*.main div{
+    border: 1px solid red;
+}*/
+
+/* element > element */
+/*.main > div {
+    border: 1px solid red;
+}*/
+
+/* element1 + element2 */
+/*h1 + p{
+    font-weight: bold;
+    color: red;
+}*/
+
+/* element1 ~ element2 */
+h1 ~ p{
+    font-weight: bold;
+    color: red;
+}
