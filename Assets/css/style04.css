@@ -1,0 +1,28 @@
+/* Element */
+p{
+    color: blue;
+}
+/* Id */
+#mytext{
+    color: red;
+}
+/* Class */
+.caption{
+    color: green;
+}
+p.caption{
+    font-family: sans-serif;
+}
+/* All Elements */
+*{
+    
+}
+/* Grouping */
+h1, h2{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mycaption, h2{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
