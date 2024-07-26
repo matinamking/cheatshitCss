@@ -1,0 +1,18 @@
+body{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: white;
+}
+.box1{
+    background-color: #D81B60;
+    border: 6px solid green;
+    /*padding: 20px;*/
+    margin-bottom: 20px;
+    padding: 20px 40px;
+    border-right: 6px solid blue;
+}
+.box2{
+    background-color: #03A9f4;
+    border: 6px solid red;
+    margin-top: -40px;
+}
