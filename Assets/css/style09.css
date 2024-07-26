@@ -1,0 +1,21 @@
+body{
+    font-family: sans-serif;
+    font-size: 24px;
+}
+div{
+    height: 50px;
+}
+.box1{
+    background-color: #D81B60;
+    /* margin: value 
+    margin: 10px;
+    margin-bottom: 10px;*/
+    /* margin: value(top,bottom) value(right,left)
+    margin: 10px 4px;*/
+    /* margin: value(top) value(right,left) value(bottom)
+    margin: 10px 20px 30px;*/
+   margin: 10px 20px 30px 40px;
+}
+.box2{
+    background-color: #03A9f4;
+}
