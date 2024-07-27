@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.btn{
+    font-family: sans-serif;
+    font-size: 24px;
+    width: 100px;
+    margin-top: 50px;
+    margin-right: 50px;
+
+    outline: 2px solid blue;
+    outline-offset: 10px;
+}
