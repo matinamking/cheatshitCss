@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+div{
+    background-color: #d81b60;
+    color: blue;
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 50px;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 600px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+h1{
+    margin-bottom: 12px;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+}
+a{
+    color: white;
+}
+/*
+text-indent
+text-height
+letter-spacing
+word-spacing
+white-space
+*/
+p{
+    text-indent: 24px;
+    line-height: 1.5;/* 16px * 1.5 */
+    white-space: nowrap;
+}
