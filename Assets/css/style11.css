@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+}
+html{
+    font-size: 16px;
+}
+p{
+    font-size: 2rem;/* 1rem = (htmlFontSize=16)16px , 2rem = 2*16 = 32px */
+}
+h2{
+   font-size: 3rem; 
+}
+span{
+    font-size: 0.5em;
+}
+/*.content{
+    width: 20rem;
+    height: 400px;
+    background-color: brown;
+}
+.box{
+    width: 50%;
+    height: 300px;
+    background-color: blue;
+}*/
+.mmm{
+    width: 50vw;
+    height: 400px;
+    background-color: brown;
+    margin-bottom: 2rem;
+}
