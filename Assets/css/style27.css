@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: #37474f;
+}
+
+.box1,
+.box2,
+.box3{
+    height: 150px;
+    margin-bottom: 24px;
+}
+.box1{
+    background-color: #ad1457;
+}
+.box2{
+    background-color: #1565c0;
+}
+.box3{
+    background-color: #55882f;
+}
+.overlay{
+    height: 1000px;
+}
+
+
+.box1{
+    /*position: relative;
+    right: 24px;
+    left: 24px;
+    top: 24px;
+    bottom: 24px;*/
+    position: fixed;
+    width: 50%;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0;
+}
