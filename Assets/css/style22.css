@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+@font-face {
+    font-family: 'sans';
+    src: url(/Assets/font/SANSSERIFCOLLECTION.TTF) format("truetype");
+}
+body{
+    font-family: 'sans';
+}
+div{
+    background-color: #d81b60;
+    color: white;
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    text-align: justify;
+    text-transform: capitalize;
+
+}
+h1{
+    margin-bottom: 12px;
+    text-shadow: 2px 2px 4px #2196f3;
+}
+p{
+    margin-bottom: 14px;
+}
+a{
+    color: white;
+    font-size: 18px;
+}
+span{
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+}
+.link:hover{
+    color: #4caf50;
+}
+.link:active{
+    background-color: yellow;
+}
+.link:visited{
+    color: aquamarine;
+}
+input:focus{
+    outline-color: #4caf50;
+}
+h1:hover ~ p{
+    color: #4caf50;
+}
