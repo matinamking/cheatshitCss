@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: #37474f;
+}
+
+.box{
+    width: 800px;
+    background-color: #1565c0;
+    border: 8px solid #29b6f6;
+    height: 200px;
+    padding: 7px;
+    margin: 0 auto;
+    /*overflow: auto;
+    overflow-x: auto;
+    overflow-y: scroll;*/
+    overflow: hidden;
+}
+
+.box_child{
+    width: 860px;
+    height: 100px;
+    background-color: white;
+}
