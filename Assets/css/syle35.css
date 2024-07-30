@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+:root{
+    font-size: 22px;
+    background-color: blue;
+}
+html{
+    background-color: red;
+}
+.container{
+    width: 280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.item:first-child{
+    color: red;
+}
+.item:last-child{
+    color: red;
+}
+.item:nth-child(4){
+    color: blue;
+}
+.item:nth-child(even){
+    color: blue;
+}
+.item:nth-child(odd){
+    color: blue;
+}
+
+.list .item:not(.item-delete){
+    color: brown;
+}
+
+.content:empty{
+    border: 2px solid red;
+    padding: 14px;
+}
+
+/*.alert{
+    display: none;
+}
+
+.checkbox:checked + .alert{
+    display: block;
+}*/
+
+/*.checkbox:checked ~ p{
+    display: block;
+}
+p{
+    display: none;
+}*/
+
+/*
+:root
+:checked
+:first-child
+:nth-child(n)
+:not(selector)
+:empty
+*/
