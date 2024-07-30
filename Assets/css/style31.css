@@ -8,16 +8,32 @@ body{
 
 .container{
     width: 1288px;
-    height: 200px;
+    height: 400px;
     margin-right: auto;
     margin-left: auto;
     display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    /*justify-content: space-between;*/
     gap: 24px;
-    flex-wrap: wrap;
-    flex-direction: column;
+    /*flex-direction: column;*/
+    /*flex-wrap: wrap;*/
 }
 .flex_item{
-    width: 200px;
+    width: 320px;
     height: 200px;
-    background-color: #1976d2;
+    /* background-color: #1976d2;*/
 }
+
+.flex_item__blue{
+    background-color: blue;
+    height: 100px;
+}
+.flex_item__green{
+    background-color: green;
+    height: 150px;
+}
+.flex_item__red{
+    background-color: red;
+} 
