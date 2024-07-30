@@ -32,3 +32,14 @@ body{
     top: 0;
     bottom: 0;
 }
+.container__child-title2{
+    position: relative;
+}
+.container__child-title2::before{
+    content: "";
+    width: 120px;
+    display: block;
+    border-bottom: 2px solid black;
+    position: absolute;
+    top: 24px;
+}
