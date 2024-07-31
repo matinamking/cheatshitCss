@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    font-size: 18px;
+}
+.container{
+    /*width: calc(1000px + 280px);*/
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blueviolet;
+}
+.box{
+    width: calc(100% - 10px);
+    height: 300px;
+    background-color: aquamarine;
+}
+/*
+calc()
+min(20px,10px,5px,6px)=>5px
+max(20px,10px,5px,2px)=>20px
+clamp(200px,400px , 800px)= min=>200px , meduim=>400px ,max=>800px
+minmax()
+*/
