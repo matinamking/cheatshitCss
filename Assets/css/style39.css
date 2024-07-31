@@ -6,3 +6,31 @@
 body{
     font-size: 18px;
 }
+.container{
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*
+[attribute]
+[attribute=value]
+[attribute^="value"]
+[attribute$="value"]
+*/
+/*[type]{
+    background-color: red;
+}*/
+/*[type=text]{
+    background-color: blue;
+}*/
+/*.container [type=text]{
+background-color=black;
+}*/
+
+
+/*.container [href^="https://"]{
+    background-color: blueviolet;
+}*/
+.container [href$=".ir"]{
+    background-color: blue;
+}
