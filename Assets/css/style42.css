@@ -1,0 +1,40 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-size: 18px;
+}
+/*
+bg size
+inherit
+initial راه اندازی اولیه
+transparent
+cursor
+*/
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+.container{
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper{
+    width: 400px;
+    height: 300px;
+    background-color: aqua;
+    background-image: url("/Assets/img/07.jpg");
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    /*background-size: contain;*/
+    background-size: cover;
+    background-position: center;
+}
+
+p{
+    cursor: pointer;
+}
