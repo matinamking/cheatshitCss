@@ -1,0 +1,38 @@
+:root{
+    --primary-color: #3949ab;
+    --shadow: 2px 2px 16px -4px #020202;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family:sans-serif ;
+}
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+body{
+    font-size: 18px;
+}
+.container{
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1{
+    text-align: center;
+    color: var(--primary-color);
+}
+p{
+    text-align: center;
+    color: var(--primary-color);
+}
+.box{
+    /*--red: red;*/
+    width: 400px;
+    height: 200px;
+    margin: 40px auto;
+    background-color: var(--primary-color);
+    box-shadow: var(--shadow);
+    /*var(--main,red)*/
+}
