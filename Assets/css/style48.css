@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    font-size: 18px;
+}
+.container{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box{
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 20px -2px #78909c;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
