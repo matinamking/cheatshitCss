@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    font-size: 18px;
+}
+.container{
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #009688;
+    /*transition: width 250ms ease-in 50ms , height 20ms;*/
+    transition: all 250ms ease-in 50ms;
+}
+.box:hover{
+    /*background-color: red;*/
+    width: 400px;
+    box-shadow: 0 0 16px -2px rgba(0, 0, 0, 0.2);
+}
